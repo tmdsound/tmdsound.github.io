@@ -1,0 +1,80 @@
+
+        // if ( znac1 == '+' || znac1 == '-' || znac1 == '*' || znac1 == '/' ) {
+
+        //     $('#znak').text(znac1);
+        //     num1 = was.slice(0,-1);
+        //     if (!num1)return false;
+        //     $(this).val(num1);
+            
+        //     if(!x) {x = parseFloat(num1);}
+        //     else{ y = parseFloat(num1);}
+        //     $(this).val('');
+           
+        //     $('#chislo').text(x);
+        //     console.log(znac1);
+
+        // }
+        
+        //   if ( znac1 == '-' ){
+        //     $('#znak').text(znac1);
+        //      num1 = was.slice(0,-1);
+        //      $(this).val(num1);
+        //      if (!num1)return false;
+             
+        //      if(!x) {x = parseFloat(num1);}
+
+        //      else{ y = parseFloat(num1);
+        //      x -= y ;
+        //                 }
+
+                        
+        //    $(this).val('');
+           
+        //      $('#chislo').text(x);
+        //    console.log(x);
+
+        // }
+        //   if ( znac1 == '*' ){
+        //     $('#znak').text(znac1);
+        //      num1 = was.slice(0,-1);
+        //      $(this).val(num1);
+        //      if (!num1)return false;
+             
+        //      if(!x) {x = parseFloat(num1);}
+
+        //      else{ y = parseFloat(num1);
+        //      x *= y ;
+        //                 }
+
+                        
+        //    $(this).val('');
+           
+        //      $('#chislo').text(x);
+        //    console.log(x);
+
+        // }
+        //   if ( znac1 == '/' ){
+        //     $('#znak').text(znac1);
+        //      num1 = was.slice(0,-1);
+        //      $(this).val(num1);
+        //      if (!num1)return false;
+             
+        //      if(!x) {x = parseFloat(num1);}
+
+        //      else{ y = parseFloat(num1);
+        //      x /= y ;
+        //                 }
+
+                        
+        //    $(this).val('');
+           
+        //      $('#chislo').text(x);
+        //    console.log(x);
+
+        // }
+         
+            
+        
+    		
+        
+    
