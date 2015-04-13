@@ -6,17 +6,13 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
 
-	 <link rel="stylesheet" href="assets/jquery.mobile-1.4.5.min.css" />
+	 <!-- <link rel="stylesheet" href="assets/jquery.mobile-1.4.5.min.css" /> -->
 	 <link rel="stylesheet" href="assets/main.css" />
 	<!-- JQwery -->
 <script src="assets/jquery-2.1.3.min.js"></script>
-<script src="assets/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="assets/jquery.mobile-1.4.5.min.js"></script> -->
 <style type="text/css">
- .rtl {
-   /*unicode-bidi: bidi-override;  Меняются характеристики текста */
-   direction: rtl; /* Текст пишется справа налево */ 
-   text-align: right;
-  }
+
   </style>
 
 
@@ -25,38 +21,29 @@
 </head>
 <body>
 	<!--Page -->
-<div data-role="page" id="main">
-
-	<!--End Header -->
-	<!--Content -->
-	<div data-role="content" id="calc">
-<div>Cflculate!!!df</div>	
+<div class="container">
+<h2>Calculator!!!</h2>	
 
 
+<div class="cal">
+<div id="otwet" dir="ltr" style="text-align: right; "><span class="number">&nbsp;</span> <span class="arg">&nbsp;</span></div>	
 
-<div><div id="chislo" dir="ltr" style="text-align: right">&nbsp;</div>	
-<div id="res" dir="ltr" style="text-align: right">&nbsp;</div>
-<div id="schet" dir="ltr" style="text-align: right">&nbsp;</div>
+<input type="text" name="cal" id="cal" value=""dir="ltr" style="text-align: right" autofocus ></div>
 <div id="znak" dir="ltr" style="text-align: right;margin-right:100px;">&nbsp;</div>	
-<div id="otwet" dir="ltr" style="text-align: right;"><span class="number">&nbsp;</span> <span class="arg">&nbsp;</span></div>	
-
-<input type="text" name="cal" id="cal" value=""dir="ltr" style="text-align: right"></div>
-
-очистить - клавиша "c"
+очистить - клавиша "c"</div>
 
 
 
  
 	
-	</div>
 	<!--End Content -->
 	<!--Footer -->
-	<div data-role="footer" data-position="fixed">
-	© 2015 droboshok
+	<div class="footer">
+	© 2015 <a href="http://droboshok.github.io">droboshok</a>
 	</div>
  <!--End Footer -->
-</div>
 <!--End Pages -->
+</div>
 <script src="calc-7.js">
 </script>
 </body>
