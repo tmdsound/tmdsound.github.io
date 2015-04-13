@@ -1,16 +1,16 @@
 {
-    "name": "Linux",
-    "description": "Your Extension Description", 
+    "name": "Calculator",
+    "description": "Cамый простой калькулятор", 
     "icons":{
-        "48": "img/Linux-icon-48.png",
-        "128": "img/Linux-icon-128.png"
+        "48": "img/Apps-Calculator-Metro-icon-48.png",
+        "128": "/img/Apps-Calculator-Metro-icon-128.png"
     },
     "browser_action": {
         "default_icon": {
-            "48": "img/Linux-icon-48.png"
+            "48": "/img/Apps-Calculator-Metro-icon-48.png"
             }, 
-        "default_title": "Linux", 
-        "default_popup": "popup.html"
+        "default_title": "Calculator", 
+        "default_popup": "calc.html"
     }, 
     "manifest_version": 2,
     "version": "0.1"
