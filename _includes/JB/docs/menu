@@ -1,0 +1,14 @@
+			<div class="menu-strip">
+				<ul>           
+					<li><a href="/audi/index.html">Audi</a></li>
+					<li><a href="/volkswagen/index.html">Volkswagen</a></li>
+					<li><a href="/mercedes/index.html">Mercedes</a></li>
+					<li><a href="/bmw/index.html">BMW</a></li>
+					<li><a href="/toyota/index.html">Toyota</a></li>
+					<li><a href="/subaru/index.html">Subaru</a></li>
+					<li><a href="/nissan/index.html">Nissan</a></li>
+					<li><a href="/world/index.html">World</a></li>
+					<li><a href="/conceptcar/index.html">ConceptCar</a></li>
+					<li><a href="/moto/index.html">MOTO</a></li>
+				</ul>
+			</div>

@@ -1,0 +1,49 @@
+<div class="col-md-9 total-news">
+<div class="grids">
+		<div class="grid box">
+			<div class="grid-header">
+				<a class="gotosingle" href="singlepage.html">{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</a>
+				<ul>
+				<li><span>Автор<a href="#"> {{ site.author.name }}</a> {{ page.date | date_to_long_string }}</span></li>
+				<li><a href="#">5 comments</a></li>
+				</ul>
+			</div>
+			<div class="singlepage">
+							{{ content }}
+							    <hr>
+    <ul class="pagination">
+    {% if page.previous %}
+      <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous</a></li>
+    {% else %}
+      <li class="prev disabled"><a>&larr; Previous</a></li>
+    {% endif %}
+
+    {% if page.next %}
+      <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &raquo;</a></li>
+    {% else %}
+      <li class="next disabled"><a>Next &rarr;</a>
+    {% endif %}
+    </ul>
+    <hr>
+							<div class="clearfix"> </div>
+						</div>
+
+		</div>
+		<!--     {% include JB/comments %} -->
+	
+			<div class="clearfix"> </div>
+	</div>
+</div>	
+				<div class="col-md-3 side-bar">
+						<!-- night -->
+						<!-- futured -->
+						<!-- popular -->
+						<!-- reklama -->
+				<div class="clearfix"></div>
+				{% include JB/docs/archivs %}
+
+
+					<!-- archivs -->
+
+				</div>	
+				<div class="clearfix"></div>
