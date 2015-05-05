@@ -9,16 +9,18 @@ gems:
     - jekyll-auto-image
 
 excerpt_separator: <!-- more -->
+
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : МИР АВТО  
+tagline: Все об автомобилях
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
+  name : Andrei Amelin  
+  email : amelin737@gmail.com
+  github : droboshok
+  twitter : droboshok
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -78,7 +80,8 @@ JB :
   tags_path : /tags.html
   atom_path : /atom.xml
   rss_path : /rss.xml
-
+  cats_path : /cats.html
+  
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.

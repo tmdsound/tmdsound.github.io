@@ -1,0 +1,77 @@
+	<footer class="mh-footer">
+		<div class="footer-ad-wrap">
+			<div class="textwidget">
+				<a target="_blank" title="Dynamic News WordPress Theme" href="http://www.mhthemes.com/themes/mh/newsdesk/"><img width="728" height="90" alt="advertisement" src="http://www.mhthemes.com/ads/dark_ad_728x90.png"></a>
+			</div>
+		</div>
+		<div class="wrapper-inner clearfix">
+			<div class="mh-section mh-group footer-widgets">
+				<div class="mh-col mh-1-3 footer-1">
+					<div class="footer-widget">
+						<h5 class="widget-title">Theme Information</h5>
+						<div class="menu-theme-information-container">
+							<ul id="menu-theme-information" class="menu">
+								<li id="menu-item-265" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-265"><a target="_blank" href="http://www.mhthemes.com/themes/mh/newsdesk/">Features Overview</a></li>
+								<li id="menu-item-266" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-266"><a target="_blank" href="http://www.mhthemes.com/themes/">More themes by MH Themes</a></li>
+								<li id="menu-item-267" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267"><a target="_blank" href="https://www.facebook.com/MHthemes">Become a fan on Facebook</a></li>
+								<li id="menu-item-268" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-268"><a target="_blank" href="https://twitter.com/MHthemes">Follow us on Twitter</a></li>
+								<li id="menu-item-269" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-269"><a target="_blank" href="http://eepurl.com/4zlDH">Subscribe to Newsletter</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="mh-col mh-1-3 footer-2">
+					<div class="footer-widget">
+						<h5 class="widget-title">Recent Articles</h5>
+						<ul class="mh-rp-widget widget-list">
+							<li class="rp-widget-item"><a href="http://demo.mh-themes.com/newsdesk/government-submits-legal-bill/" title="Barius iaculis quis eu est lorem ipsum dolor sit amet nec accumsan enim" rel="bookmark">Barius iaculis quis eu est lorem ipsum dolor sit amet nec accumsan enim</a>
+							</li>
+							<li class="rp-widget-item"><a href="http://demo.mh-themes.com/newsdesk/soldering-more-efficient-in-manual-labor/" title="Lorem ipsum dolor sit amet consectetur adipiscing elit" rel="bookmark">Lorem ipsum dolor sit amet consectetur adipiscing elit</a></li>
+							<li class="rp-widget-item"><a href="http://demo.mh-themes.com/newsdesk/kreml-news-from-moscow/" title="Aculis pretium congue integer lacinia vulputate efficit" rel="bookmark">Aculis pretium congue integer lacinia vulputate efficit</a></li>
+							<li class="rp-widget-item"><a href="http://demo.mh-themes.com/newsdesk/virginia-lakers-lost-in-last-game/" title="Lorem ipsum dolor sit amet consectetur adipiscing elit" rel="bookmark">Lorem ipsum dolor sit amet consectetur adipiscing elit</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="mh-col mh-1-3 footer-3">
+					<div class="footer-widget">
+						<h5 class="widget-title">Categories</h5>
+						<div class="menu-categories-container">
+							<ul id="menu-categories" class="menu">
+								<li id="menu-item-270" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-270"><a href="http://demo.mh-themes.com/newsdesk/category/world/">World</a>
+								</li>
+								<li id="menu-item-271" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-271"><a href="http://demo.mh-themes.com/newsdesk/category/travel/">Travel</a>
+								</li>
+								<li id="menu-item-272" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-272"><a href="http://demo.mh-themes.com/newsdesk/category/sport/">Sport</a>
+								</li>
+								<li id="menu-item-273" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-273"><a href="http://demo.mh-themes.com/newsdesk/category/technology/">Technology</a></li><li id="menu-item-274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="http://demo.mh-themes.com/newsdesk/archive/">All Categories</a>
+								</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+	<div class="footer-bottom">
+	<div class="wrapper-inner clearfix"> 
+		<nav class="footer-nav clearfix">
+			<div class="menu-footer-container">
+				<ul id="menu-footer" class="menu">
+					<li id="menu-item-291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-291"><a href="http://demo.mh-themes.com/newsdesk/contact/">Contact</a>
+					</li>
+					<li id="menu-item-286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286"><a href="http://demo.mh-themes.com/newsdesk/sitemap/">Sitemap</a>
+					</li>
+					<li id="menu-item-243" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-243"><a target="_blank" href="http://www.mhthemes.com/themes/mh/newsdesk/">Purchase</a>
+					</li>
+					</ul>
+				</div> 
+			</nav>
+	<div class="copyright-wrap">
+		<p class="copyright">Copyright 2015 | MH Newsdesk by 
+			<a href="http://www.mhthemes.com/" title="Premium Magazine WordPress Themes" rel="nofollow">MH Themes</a>
+			</p>
+		</div>
+	</div>
+	</div> 
+	</footer>

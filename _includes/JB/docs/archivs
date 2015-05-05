@@ -1,7 +1,0 @@
-			<div class="grid-top">
-				<h4>Архив</h4>
-				<ul>
-					{% assign posts_collate = site.posts %}
-					{% include JB/posts_collate %}
-				</ul>
-			</div>

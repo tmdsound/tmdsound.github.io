@@ -1,0 +1,82 @@
+<!-- Sidebar -->			
+		<aside class="home-sidebar">
+				<div class="sb-widget">
+					{% for post in site.posts limit:5 %}
+
+
+					<article class="cp-wrap cp-small clearfix">
+						<div class="cp-thumb-small"> 
+							<a href="{{ post.url }}" title="{{post.title}}">
+								<img width="120" height="67" src="/{{post.category}}/{{ post.image }}" class="attachment-cp-thumb-small wp-post-image" alt="Seaside" />
+								</a>
+							</div>
+						<p class="entry-meta">
+							<span class="updated">{{post.date | date: "%d %m %Y" }}</span>
+							</p>
+						<h3 class="cp-title-small">
+							<a href="{{post.url}}" title="{{post.title}}" rel="bookmark">{{ post.title }}</a>
+								</h3> 
+						</article>
+					<hr class="mh-separator"> 
+						{% endfor %}
+				</div>
+
+				<div class="sb-widget">
+					<h4 class="widget-title">
+						<span>Latest Headlines</span>
+						</h4>
+					<ul class="mh-rp-widget widget-list">
+						<li class="rp-widget-item"><a href="" title="Barius iaculis quis eu est lorem ipsum dolor sit amet nec accumsan enim" rel="bookmark">Barius iaculis quis eu est lorem ipsum dolor sit amet nec accumsan enim</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="sb-widget">
+					<div class="textwidget">
+						<div class="ad-spot">
+							<a target="_blank" title=""><img width="336" height="280" alt="advertisement" src=""></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="sb-widget">
+					<h4 class="widget-title">
+						<span>Random Articles</span>
+						</h4>
+					<div class="mh-cp-widget clearfix"> 
+								<article class="cp-wrap cp-large clearfix">
+									<div class="cp-thumb-xl"> 
+										<a href="" title="Amper nisi curabitur fermentum aliquet lacus vitae aliquet">
+											<img width="373" height="210" src="" class="attachment-cp-thumb-xl wp-post-image" alt="Runners" /></a>
+										</div>
+									<p class="entry-meta">
+										<span class="updated">May 3, 2014</span>
+											</p>
+									<h3 class="cp-title-xl">
+										<a href="" title="Amper nisi curabitur fermentum aliquet lacus vitae aliquet" rel="bookmark">Amper nisi curabitur fermentum aliquet lacus vitae aliquet</a>
+									</h3>
+									<div class="cp-excerpt-xl">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet ullamcorper lacus, in ultricies ipsum. In eget porta nisl, id sollicitudin nunc. Quisque eget&#8230;</p> 
+											<a class="button" href=""> 
+											<span>Read More</span> </a>
+									</div> 
+								</article>
+						<hr class="mh-separator"> 
+					</div>
+				</div>
+
+				<div class="sb-widget">
+             		<h4 class="widget-title">
+                  	<span>Topics</span>
+               		</h4>
+          			<div class="tagcloud">
+
+                		{% for category in site.categories %}
+                    		<span style="float:left;font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size }}% ">
+                    		
+                  				<a href='/{{ category | first }}/' class='tag' >{{ category | first }}&nbsp;</a> 
+                  				</span>
+              			{% endfor %}
+         	 		</div>
+        		</div>
+        </aside>

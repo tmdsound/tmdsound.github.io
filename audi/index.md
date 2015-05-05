@@ -1,5 +1,5 @@
 ---
-layout: page_a
+layout: page
 title: "Audi"
 description: ""
 ---

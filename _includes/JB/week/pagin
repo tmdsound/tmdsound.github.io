@@ -1,0 +1,11 @@
+<div class="pagination clearfix">
+	<span class='page-numbers current'>1</span> 
+		{% if asd > 7 %}
+		{% for i in (1..pag)%}
+		{% if i > 1 %}
+		<a class='page-numbers' href='{{ i }}.html'>{{ i }}</a> 
+		{% endif %}
+		{% endfor %}
+		<a class="next page-numbers" href="{{ pag }}.html">&raquo;</a>
+		{% endif %}
+</div>

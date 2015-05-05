@@ -1,32 +1,33 @@
-<div class="slider">
-						<script src="js/responsiveslides.min.js"></script>
-						 <script>
-							// You can also use "$(window).load(function() {"
-							$(function () {
-							  $("#conference-slider").responsiveSlides({
-								auto: true,
-								manualControls: '#slider3-pager',
-							  });
-							});
-						</script>
-						 <div class="conference-slider">
-							<!-- Slideshow 3 -->
-							<ul class="conference-rslide" id="conference-slider">
-							  <li><img src="images/m3.jpg" alt=""></li>
-							  <li><img src="images/m2.jpg" alt=""></li>
-							  <li><img src="images/m1.jpg" alt=""></li>
-							  <li><img src="images/m4.jpg" alt=""></li>
-							</ul>
-							<!-- Slideshow 3 Pager -->
-							<ul id="slider3-pager">
-							  <li><a href="#"><img src="images/m3.jpg" alt=""></a></li>
-							  <li><a href="#"><img src="images/m2.jpg" alt=""></a></li>
-							  <li><a href="#"><img src="images/m1.jpg" alt=""></a></li>
-							  <li><a href="#"><img src="images/m4.jpg" alt=""></a></li>
-							</ul>
-							<div class="breaking-news-title">
-								<p>Lorem ipsum dolor sit amet, consectetur Nulla quis lorem neque, mattis venenatis lectus. </p>
-							</div>
-						</div> 
-						<h5 class="breaking">Breaking news</h5>
-					</div>
+
+<div class="col-lg-8">
+    <div id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill"><img src="blog/single-post.jpg"></div>
+                <div class="carousel-caption">
+                    <h3>Caption 1</h3>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill"><img src="blog/single-post.jpg"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" ><img src="blog/single-post.jpg"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
