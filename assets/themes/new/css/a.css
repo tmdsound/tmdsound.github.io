@@ -137,7 +137,7 @@ html{
 }
 
 body{
-	font-family:"PT Serif",Georgia,Times,"Times New Roman",serif;
+	font-family:"PT Serif",Verdana,sGeorgia,Times,"Times New Roman",serif;
 	font-size:16px;
 	font-size:1rem;
 	line-height:1.6;
@@ -357,7 +357,7 @@ a:hover{
 
 .header-nav,.header-sub,h1,h2,h3,h4,h5,h6,.breadcrumb,.footer-bottom,.widget-list li,.cat-item,.page_item,.menu-item,.button,.commentlist .vcard,.pagination,.mh-share-buttons{
 	/*font-family:'Oswald',Helvetica,Arial,sans-serif*/
-		font-family: 'Cuprum', Helvetica,Arial, sans-serif;
+		font-family: 'Cuprum',Verdana,Helvetica,Arial, sans-serif;
 		font-size: 1.2em;
 		
 }
@@ -1908,8 +1908,8 @@ table td{
 }
 
 .cp-title-small{
-	font-size:16px;
-	font-size:1.1em;
+	font-size:14px;
+	font-size:1em;
 	overflow:hidden
 }
 

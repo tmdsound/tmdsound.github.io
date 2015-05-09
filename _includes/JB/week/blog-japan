@@ -28,7 +28,7 @@
 					<div class="cp-excerpt-xl">
 						{{ node.excerpt }} 
 							<a class="button" href="{{ post.url }}"> 
-								<span>Read More</span> 
+								<span>Дальше</span> 
 							</a>
 					</div> 
 				</article>

@@ -1,11 +1,11 @@
 ---
 layout: post_a
-title: "Volkswagen показал новый концепт C Coupe GTE"
+title: "Kia Coupe GTE"
 description: ""
-category: volkswagen
-cat: europe
+category: kia
+cat: asia
 image: img/eab1cf0c.jpg
-tags: [europe, volkswagen]
+tags: [asia, kia]
 ---
 {% include JB/setup %}
 
