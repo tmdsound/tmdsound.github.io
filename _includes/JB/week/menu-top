@@ -1,8 +1,8 @@
 <nav class="main-nav clearfix">
  		<div class="menu-navigation-container">
  			<ul id="menu-navigation" class="menu">
- 				<li class="menu-item "><a href="{{ HOME_PATH }}">Главная</a></li>
- 				<li class="menu-item"><a href="/tuning/index.html">Tюнинг</a></li>
+ 				<li class="menu-item "><a href="{{ HOME_PATH }}">Home</a></li>
+ 				<li class="menu-item"><a href="/tuning/index.html">Tuning</a></li>
  				<li class="menu-item"><a href="/europe/">Europe</a>
  					<ul class="sub-menu">
  						<li class="menu-item"><a href="/audi/">Audi</a></li>
@@ -24,18 +24,18 @@
  				</li>
  				<li class="menu-item"><a href="/america/">America</a>
  					<ul class="sub-menu">
- 						<li class="menu-item"><a href="http://demo.mh-themes.com/newsdesk/default-page/">Default Page</a></li>
+ 						<li class="menu-item"><a href="/ford/">Ford</a></li>
  				
  					</ul>
  				</li>
  				<li class="menu-item"><a href="/asia/">Asia</a>
  					<ul class="sub-menu">
- 						<li id="menu-item-288" class="menu-item"><a href="http://demo.mh-themes.com/newsdesk/default-page/">Default Page</a></li>
+ 						<li class="menu-item"><a href="/kia/">Kia</a></li>
  				
  					</ul>
  				</li>
- 				<li class="menu-item "><a target="_blank" href="http://www.mhthemes.com/themes/mh/newsdesk/">ConceptCar</a></li>
- 				<li class="menu-item "><a target="_blank" href="http://www.mhthemes.com/themes/mh/newsdesk/">Офф-топ</a></li>
+ 				<li class="menu-item "><a href="/conceptcar">ConceptCar</a></li>
+ 				<li class="menu-item "><a href="/offtop">Off-top</a></li>
  			</ul>
  		</div> 
  	</nav>

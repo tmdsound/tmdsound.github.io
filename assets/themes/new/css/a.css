@@ -1,5 +1,25 @@
-
-
+@font-face {
+  font-family: 'PTSerif-Regular';
+  src: url('font/PTSerif-Regular.eot');
+  src: url('font/PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
+       url('font/PTSerif-Regular.woff2') format('woff2'),
+       url('font/PTSerif-Regular.woff') format('woff'),
+       url('font/PTSerif-Regular.ttf') format('truetype'),
+       url('font/PTSerif-Regular.svg#PTSerif-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oswald-Regular';
+  src: url('oswald/Oswald.Regular.eot');
+  src: url('oswald/Oswald.Regular.eot?#iefix') format('embedded-opentype'),
+       url('oswald/Oswald.Regular.woff2') format('woff2'),
+       url('oswald/Oswald.Regular.woff') format('woff'),
+       url('oswald/Oswald.Regular.ttf') format('truetype'),
+       url('oswald/Oswald.Regular.svg#PTSerif-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 img.wp-smiley,img.emoji{
 	display:inline !important;
@@ -137,7 +157,7 @@ html{
 }
 
 body{
-	font-family:"PT Serif",Verdana,sGeorgia,Times,"Times New Roman",serif;
+	font-family:"PTSerif-Regular",Verdana,Georgia,Times,"Times New Roman",serif;
 	font-size:16px;
 	font-size:1rem;
 	line-height:1.6;
@@ -357,7 +377,7 @@ a:hover{
 
 .header-nav,.header-sub,h1,h2,h3,h4,h5,h6,.breadcrumb,.footer-bottom,.widget-list li,.cat-item,.page_item,.menu-item,.button,.commentlist .vcard,.pagination,.mh-share-buttons{
 	/*font-family:'Oswald',Helvetica,Arial,sans-serif*/
-		font-family: 'Cuprum',Verdana,Helvetica,Arial, sans-serif;
+		font-family: 'Oswald-Regular',Verdana, Arial,'Cuprum',Helvetica, sans-serif;
 		font-size: 1.2em;
 		
 }
@@ -913,8 +933,8 @@ a:hover{
 }
 
 .entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6,.entry-content p,.entry-content blockquote,.entry-content table,.entry-content .mh-video-container{
-	margin-bottom:20px;
-	margin-bottom:1.25rem
+	margin-bottom:10px;
+	margin-bottom:0.50rem
 }
 
 .entry-content a{
@@ -1767,6 +1787,9 @@ table td{
 
 .mh-pinterest span{
 	background:#de010d
+}
+.mh-vk span{
+	background:#002C83
 }
 
 .mh-googleplus span{

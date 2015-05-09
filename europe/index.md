@@ -7,12 +7,7 @@ cat: europe
 ---
 {% include JB/setup %}
 
-{% for tag in site.tags %} 
-	{% if tag[0] == 'europe'%}
-{% include JB/week/blog %} 
- 
-  {% endif %}
-{% endfor %}
+{% include JB/week/blog1 %} 
 
 {% include JB/week/pagin %}	
 

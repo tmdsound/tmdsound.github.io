@@ -46,7 +46,7 @@ Usage:
       </h3> 
     </header>
     <div class="content-list-excerpt">
-      <p>{{ node.excerpt }}</p>
+    {{ node.excerpt }}
     </div> 
 </article>
   
