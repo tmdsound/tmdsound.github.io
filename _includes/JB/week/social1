@@ -11,10 +11,10 @@
 				<i class="fa fa-twitter fa-2x"></i>TWEET</span>
 		</a>
 	</div>
-	<div class="mh-col mh-1-4 mh-pinterest"> 
-		<a href="#" onclick="window.open('http://pinterest.com/pin/create/button/?url={{ site.url }}{{ page.url }}&amp;media={{ site.url }}{{ page.category }}{{ page.image }}&amp;description={{ page.title }}', 'pinterestShare', 'width=750,height=350'); return false;" title="Pin This Post">
+	<div class="mh-col mh-1-4 mh-vk"> 
+		<a href="#" onclick="window.open('http://vkontakte.ru/share.php?url={{ site.url }}{{ page.url }}&amp;image={{ site.url }}/{{ page.category }}/{{ page.image }}&amp;description={{ page.title }}', 'pinterestShare', 'width=750,height=350'); return false;" title="Vkontakte">
 			<span class="mh-share-button">
-				<i class="fa fa-pinterest fa-2x"></i>PIN</span>
+				<i class="fa fa-vk fa-2x"></i>VK</span>
 		</a>
 	</div>
 	<div class="mh-col mh-1-4 mh-googleplus"> 
