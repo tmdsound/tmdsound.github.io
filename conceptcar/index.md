@@ -1,19 +1,10 @@
 ---
 layout: page_a
-title: "europe"
+title: "conceptcar"
 category: conceptcar
 description: ""
 cat: conceptcar
 ---
 {% include JB/setup %}
-
-{% for tag in site.tags %} 
-	{% if tag[0] == 'conceptcar'%}
-
-  <ul >
-    {% assign pages_list = tag[1] %} 
-    {% include JB/pages1_list %}
-   
-  </ul>
-  {% endif %}
-{% endfor %}
+{% include JB/week/blog1 %}
+{% include JB/week/pagin %}
