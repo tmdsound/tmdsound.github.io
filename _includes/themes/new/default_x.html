@@ -17,8 +17,19 @@
 
   <!-- <link rel='stylesheet' id='mh-google-fonts-css'  href='http://fonts.googleapis.com/css?family=PT+Serif:300,400,400italic,600,700|Oswald:300,400,400italic,600,700' type='text/css' media='all' />  -->
   <!-- <link href='http://fonts.googleapis.com/css?family=Cuprum:400,400italic,700&subset=cyrillic,latin' rel='stylesheest' type='text/css'> -->
-
-
+<meta property="og:locale" content="ru_RU" />
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:url" content="{{site.url}}{{page.url}}" />
+<meta property="og:image" content="{{site.url}}/{{page.category}}/{{page.image}}" />
+<!-- <meta property="article:tag" content="Lifestyle,Paragliding,Sport,Travel" />
+<meta property="article:section" content="Travel" />
+<meta property="article:published_time" content="2015-01-29T17:14:47+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet ullamcorper lacus, in ultricies ipsum. In eget porta nisl, id sollicitudin nunc. Quisque eget..."/>
+<meta name="twitter:title" content="Cum sociis natoque penatibus et magnis dis parturient montes | MH Newsdesk"/>
+<meta name="twitter:domain" content="MH Newsdesk"/>
+<meta name="twitter:image:src" content="http://demo.mh-themes.com/newsdesk/wp-content/uploads/sites/8/2015/01/paraglider.jpg"/>
+ -->
 </head>
 
 
@@ -43,42 +54,34 @@
           </a>
         </div><!-- EndLogo -->
       </div>
-
         <div class="header-menu clearfix">
-          <!-- Menu --> 
-            {% include JB/week/menu-top %}
+          <!-- Menu --> {% include JB/week/menu-top %}
           <div class="header-sub clearfix">
-
-            <!-- HotTopics -->
+            <!-- HotTopics -->{% include JB/week/hot-topics %} 
+    {% include JB/week/search %}
           </div>
         </div> 
     </header>
-
-
     <div class="home mh-section mh-group">
         <!-- Content -->
       <div id="main-content" class="home-columns">
         {{ content }}
-       </div>
-      <!-- EndContent -->
-      
+       </div><!-- EndContent -->
       <!-- Sidebar -->
       {% include JB/week/sidebar %} 
     </div>
   </div>
-
-
 <!-- Footer -->
 {% include JB/week/footer %}
-
 <div id="fb-root"></div>
-
-<script type='text/javascript' src='{{ ASSET_PATH }}/js/jquery-1.11.2.js'></script> 
+<script type='text/javascript' src='{{ ASSET_PATH }}/js/jquery.js'></script> 
+<script type='text/javascript' src='{{ ASSET_PATH }}/js/jquery-migrate.min.js'></script> 
 <script type='text/javascript' src='{{ ASSET_PATH }}/js/scripts.js'></script> 
 
 <script type='text/javascript' src='{{ ASSET_PATH }}/js/jquery.form.min.js'></script>
 <script type='text/javascript' src='{{ ASSET_PATH }}/js/scripts1.js'></script> 
-<script type='text/javascript' src='{{ ASSET_PATH }}/js/comment-reply.min.js'></script> 
+<script type='text/javascript' src='{{ ASSET_PATH }}/js/comment-reply.min.js'></script>
+
 
 </body>
 </html>
