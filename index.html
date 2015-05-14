@@ -4,67 +4,10 @@ title: Hello World!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
+{% include JB/week/1 %}
+{% include JB/week/2 %}
 
-{% for post in site.posts %}
-
-{% if forloop.first %}
-<div class="sb-widget">
- 	<div class="mh-fp-large-widget clearfix">
- 		<article class="content-lead ">
- 			<div class="content-thumb content-lead-thumb"> 
- 				<a href="{{ post.url }}" title="{{ post.title }}">
- 					<img width="777" height="437" src="/{{ post.category }}/{{ post.image }}" class="attachment-content-single wp-post-image" alt="Government" />
- 				</a>
- 			</div>
- 				<p class="entry-meta"> 
- 					<span class="entry-meta-cats"><a href="{{ post.category.url }}" rel="category tag">{{ post.category }}</a>
- 					</span> 
- 					<span class="entry-meta-date updated">{{ post.date | date: "%Y-%m-%d"}}</span>
- 				</p>
- 				<h3 class="content-lead-title">
- 					<a href="{{ post.url }}" title="" rel="bookmark">{{ post.title }}</a>
- 				</h3>
- 				<div class="content-lead-excerpt">
- 					{{ post.excerpt }}
- 					 
- 						<a class="button" href="{{ post.url }}"> 
- 							<span>Дальше</span> 
- 						</a>
- 				</div> 
- 			</article>
- 		<hr class="mh-separator">
- 	</div>
-</div>
-{%endif%}
-{% endfor %}
-
-<div class="sb-widget">
-	<div class="mh-fp-grid-widget clearfix">
-		<div class="mh-section mh-group">
-		{% for post in site.posts %} 
-		{% if forloop.index >= 2 and forloop.index <= 5 %}
-			<article class="mh-col mh-1-4 ">
-				<div class="content-thumb content-grid-thumb"> 
-					<a href="{{ post.url }}" title="{{ post.title }}">
-						<img width="180" height="101" src="{{ post.category }}/{{ post.image }}" class="attachment-content-grid wp-post-image" alt="{{ post.title }}" /></a>
-				</div>
-					<p class="entry-meta">
-						<span>
-							<a href="{{ post.category.url }}" rel="category tag">{{ post.category }}</a>
-						</span>
-					</p>
-					<h3 class="content-grid-title">
-						<a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>
-					</h3> 
-			</article>
-		<hr class="mh-separator content-grid-separator">
-		{% endif %}
-		{% endfor %}
-		</div>
-		<hr class="mh-separator hidden-sm">
-	</div>
-</div>	
-
+{% include JB/week/reklama-post %}
 	
 <div class="mh-section mh-group">
 	{%comment%}{% include JB/week/blog-2 %}{%endcomment%}
@@ -79,6 +22,7 @@ tagline: Supporting tagline
 {% endfor %}
 
 </div> 
+{% include JB/week/blog121 %}
 <div class="mh-section mh-group">
 	{%comment%}{% include JB/week/blog-2 %}{%endcomment%}
 	{% for tag in site.tags %} 
@@ -122,4 +66,7 @@ Hello {{ 'now' | date: "%Y %h" }}
 
  <p>{{ 'Яндекс' | link_to: 'http://yandex.ru', 'ссылка на яндекс' }}</p>
 
+ 
  {{ 'string' | capitalize }}   
+
+ {{ site.posts | first }}

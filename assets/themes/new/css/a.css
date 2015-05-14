@@ -11,12 +11,12 @@
 }
 @font-face {
   font-family: 'Oswald-Regular';
-  src: url('oswald/Oswald.Regular.eot');
-  src: url('oswald/Oswald.Regular.eot?#iefix') format('embedded-opentype'),
-       url('oswald/Oswald.Regular.woff2') format('woff2'),
-       url('oswald/Oswald.Regular.woff') format('woff'),
-       url('oswald/Oswald.Regular.ttf') format('truetype'),
-       url('oswald/Oswald.Regular.svg#PTSerif-Regular') format('svg');
+  src: url('oswald/Oswald-Regular.eot');
+  src: url('oswald/Oswald-Regular.eot?#iefix') format('embedded-opentype'),
+       url('oswald/Oswald-Regular.woff2') format('woff2'),
+       url('oswald/Oswald-Regular.woff') format('woff'),
+       url('oswald/Oswald-Regular.ttf') format('truetype'),
+       url('oswald/Oswald-Regular.svg#Oswald-Regular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -377,7 +377,7 @@ a:hover{
 
 .header-nav,.header-sub,h1,h2,h3,h4,h5,h6,.breadcrumb,.footer-bottom,.widget-list li,.cat-item,.page_item,.menu-item,.button,.commentlist .vcard,.pagination,.mh-share-buttons{
 	/*font-family:'Oswald',Helvetica,Arial,sans-serif*/
-		font-family: 'Oswald-Regular',Verdana, Arial,'Cuprum',Helvetica, sans-serif;
+		font-family: 'Oswald-Regular', Arial, Verdana,'Cuprum',Helvetica, sans-serif;
 		font-size: 1.2em;
 		
 }
@@ -744,6 +744,9 @@ a:hover{
 
 .social-nav li a[href*="youtube.com"] .fa-mh-social:before{
 	content:'\f167'
+}
+.social-nav li a[href*="vk.com"] .fa-mh-social:before{
+	content:'\f189'
 }
 
 .slicknav_btn{

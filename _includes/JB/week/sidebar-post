@@ -1,6 +1,6 @@
-						{% assign pages_list = tag[1] %} 
+						{% assign pages1_list = tag[1] %} 
 
-      {% for node in pages_list limit:1 %}
+      {% for node in pages1_list limit:1 %}
     {% if node.title != null %}
 <h4 class="widget-title">
 	<span>{{ node.cat }}</span>
@@ -15,11 +15,11 @@
 										<span class="updated">{{ node.date | date:"%Y-%m-%d"}}</span>
 											</p>
 									<h3 class="cp-title-xl">
-										<a href="" title="{{ node.title }}" rel="bookmark">{{ node.title }}</a>
+										<a href="{{node.url}}" title="{{ node.title }}" rel="bookmark">{{ node.title }}</a>
 									</h3>
 									<div class="cp-excerpt-xl">
 										{{ node.excerpt }} 
-											<a class="button" href="">
+											<a class="button" href="{{node.url}}">
 											<span>Дальше</span> </a>
 									</div> 
 						</article>

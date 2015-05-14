@@ -7,30 +7,11 @@
  				<span class="ticker-item-separator">|</span>
  				<span class="ticker-item-title">Barius iaculis quis eu est lorem ipsum dolor sit amet nec accumsan enim</span> </a>
  				</li>
- 			<li class="ticker-item"> 
- 				<a class="ticker-item-link" href="http://demo.mh-themes.com/newsdesk/soldering-more-efficient-in-manual-labor/" title="Lorem ipsum dolor sit amet consectetur adipiscing elit">
- 					<span class="ticker-item-date">January 29, 2015</span>
- 					<span class="ticker-item-separator">|</span> 
- 					<span class="ticker-item-title">Lorem ipsum dolor sit amet consectetur adipiscing elit</span> </a>
+ 				<li class="ticker-item"> 
+ 				<a class="ticker-item-link" href="http://demo.mh-themes.com/newsdesk/government-submits-legal-bill/" title="Barius ">
+ 					<span class="ticker-item-date">Febriary 30, 2015</span>
+ 				<span class="ticker-item-separator">|</span>
+ 				<span class="ticker-item-title">Barius /span> </a>
  				</li>
-
- 			<li class="ticker-item"> 
- 				<a class="ticker-item-link" href="http://demo.mh-themes.com/newsdesk/kreml-news-from-moscow/" title="Aculis pretium congue integer lacinia vulputate efficit"> 
- 						<span class="ticker-item-date">January 29, 2015</span> 
- 						<span class="ticker-item-separator">|</span> 
- 						<span class="ticker-item-title">Aculis pretium congue integer lacinia vulputate efficit</span> </a>
- 					</li>
- 			<li class="ticker-item"> 
- 				<a class="ticker-item-link" href="http://demo.mh-themes.com/newsdesk/virginia-lakers-lost-in-last-game/" title="Lorem ipsum dolor sit amet consectetur adipiscing elit"> 
- 						<span class="ticker-item-date">January 29, 2015</span> 
- 						<span class="ticker-item-separator">|</span> 
- 						<span class="ticker-item-title">Lorem ipsum dolor sit amet consectetur adipiscing elit</span> </a>
- 					</li>
-			<li class="ticker-item"> 
-				<a class="ticker-item-link" href="http://demo.mh-themes.com/newsdesk/paragliding-on-your-holiday-trip/" title="Cum sociis natoque penatibus et magnis dis parturient montes"> 
- 						<span class="ticker-item-date">January 29, 2015</span> 
- 						<span class="ticker-item-separator">|</span> 
- 						<span class="ticker-item-title">Cum sociis natoque penatibus et magnis dis parturient montes</span> </a>
- 					</li>
  			</ul> 
  	</section> 
