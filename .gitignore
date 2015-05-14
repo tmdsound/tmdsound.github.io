@@ -1,7 +1,7 @@
+_config.yml
 _site/*
 _theme_packages/*
 
-_config.yml
 
 Thumbs.db
 .DS_Store
