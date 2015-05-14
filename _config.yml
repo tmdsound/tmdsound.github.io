@@ -10,7 +10,7 @@ gems:
 
 excerpt_separator: <!-- more -->
 
-url: http://tmdsound.github.io
+url: http://localhost:4000
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
