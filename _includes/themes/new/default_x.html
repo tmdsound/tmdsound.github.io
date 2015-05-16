@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html class="no-js" lang="ru" prefix="og: http://ogp.me/ns#">
+<html class="no-js" lang="ru" prefix="og: http://ogp.me/ns#" prefix="fb: http://ogp.me/fb/ns#">
 <head>
   <meta charset="UTF-8">
     <title>{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
   <!-- This site is optimized with the Yoast WordPress SEO plugin v2.1.1 - https://yoast.com/wordpress/plugins/seo/ -->
-  <meta name="robots" content="noindex,follow"/>
   
   <!-- / Yoast WordPress SEO plugin. -->
   <link type="text/css" media="all" href="{{ ASSET_PATH }}/css/a.css" rel="stylesheet" />
@@ -26,14 +25,15 @@
 <meta property="twitter:title" content="{{ page.title }}" />
 
 <meta name="twitter:image:src" content="{{site.url}}/{{page.category}}/{{page.image}}"/> 
+<meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}"s />
 
 
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="og:url" content="{{site.url}}{{page.url}}" />
 <meta property="og:image" content="{{site.url}}/{{page.category}}/{{page.image}}" />
 <meta property="og:type" content="{{ page.excerpt | strip_html | strip_newlines }}" />
-<meta name="twitter:description" content="{{ page.title}}" />
- <meta property="fb:admins"content="1585821168350647"/>
+<meta property="fb:admins"content="1585821168350647"/>
+<link rel="canonical" href="{{site.url}}{{page.url}}" />
 
 
 </head>
